@@ -57,6 +57,7 @@ sethandler <C-S-l> a:vim
 map <C-S-l> <Action>(EditorNextWord)
 map H <Action>(PreviousTab)
 map L <Action>(NextTab)
+map W <Action>(CloseContent)
 map <leader>f <Action>(ReformatCode)
 map <leader>F <Action>(ShowReformatFileDialog)
 "mapping actions use idea default keymap 'Alt+Enter'
